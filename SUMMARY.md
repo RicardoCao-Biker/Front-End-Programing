@@ -19,6 +19,7 @@
   * [浮动&清除](chapter1/fu-52a826-qing-chu.md)
   * [回流&重绘](chapter1/hui-6d4126-zhong-hui.md)
 * [JavaScript](12.md)
+  * [数据类型&判断](12/jsshu-ju-lei-xing.md)
 * Dom
 * HTTP
 * Vue

@@ -22,30 +22,10 @@
 
 REM这个单位，会根据html的`font-size`大小进行转换
 
-为了方便计算，时常将在`<html>`元素中设置`font-size`值为`62.5%`:[·](http://caibaojian.com/rem-and-px.html)
-
-相当于在`<html>`中设置`font-size`为`10px`
+* 通过屏幕宽度计算html的字体大小\(假设设计稿为750px，系数为100\)
 
 ```
-html{font-size:62.5%;} //10px
-p{padding-top:1rem;} 
-```
-
-* 通过屏幕宽度计算html的字体大小\(假设设计稿为750px\)
-
-```
-(function (doc, win) {
-  var docEl = doc.documentElement,
-  resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-  recalc = function () {
-  var clientWidth = docEl.clientWidth;
-  if (!clientWidth) return;
-  docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-  };
-  if (!doc.addEventListener) return;
- win.addEventListener(resizeEvt, recalc, false);
- doc.addEventListener('DOMContentLoaded', recalc, false);
-})(document, window);
+document.documentElement.style.fontSize = window.innerWidth / 7.5 + 'px';
 ```
 
 优点：能维持能整体的布局效果，移动端兼容性好，不用写多个css代码，而且还可以利用@media进行优化。
