@@ -29,27 +29,31 @@
 ```
 父{position:relative}
 子{
-    position:absolute;
-    top:0,left:0;right:0,bottom:0;
-    margin:auto;}
+  position:absolute;
+  top:0,left:0;right:0,bottom:0;
+  margin:auto;}
 ```
 
-2. 
+2.
 
 ```
+父{
 display:flex;
 content-justify:center;
-align-items:center;
+align-items:center;}
 ```
 
 3.
 
 ```
+父{position：relative}
+子{
 position:absolute;
 left:50%;
 top:50%
-transform:translate(-50%,-50%)
+transform:translate(-50%,-50%)}
 ```
 
+  
 
 
