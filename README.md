@@ -1,3 +1,12 @@
-# My Awesome Book
+# 前端知识手册
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+By Rico小草鱼
+
+学习前端路上的知识整理。
+
+E-mail : ricardo\_cao@foxmail.com
+
+HomePage : www.ricofishing.com/me
+
+
+
