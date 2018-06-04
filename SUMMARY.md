@@ -21,6 +21,9 @@
 * [JavaScript](12.md)
   * [数据类型&判断](12/jsshu-ju-lei-xing.md)
   * [声明前置](12/sheng-ming-qian-zhi.md)
+  * [操作数组](12/cao-zuo-shu-zu.md)
+  * [操作字符串](12/cao-zuo-zi-fu-chuan.md)
+  * [操作对象](12/cao-zuo-dui-xiang.md)
 * Dom
 * HTTP
 * Vue
