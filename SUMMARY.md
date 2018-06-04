@@ -20,6 +20,7 @@
   * [回流&重绘](chapter1/hui-6d4126-zhong-hui.md)
 * [JavaScript](12.md)
   * [数据类型&判断](12/jsshu-ju-lei-xing.md)
+  * [声明前置](12/sheng-ming-qian-zhi.md)
 * Dom
 * HTTP
 * Vue
