@@ -23,7 +23,7 @@
   * [声明前置](12/sheng-ming-qian-zhi.md)
   * [操作数组](12/cao-zuo-shu-zu.md)
   * [操作字符串](12/cao-zuo-zi-fu-chuan.md)
-  * [操作对象](12/cao-zuo-dui-xiang.md)
+  * [遍历](12/bian-li-dui-xiang-shu-xing.md)
 * Dom
 * HTTP
 * Vue

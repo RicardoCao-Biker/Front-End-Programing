@@ -67,5 +67,7 @@ var a = ['a','b','c','d','e'];
 a.concat([88,99]);//["a", "b", "c", "d", "e", 88, 99]
 ```
 
+#### 数组的遍历
 
+![](https://pic4.zhimg.com/80/08235a5dafaaba6f9418704cba12fedd_hd.jpg)
 
