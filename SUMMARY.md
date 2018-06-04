@@ -14,11 +14,10 @@
   * [布局](chapter1/bu-ju.md)
   * [CSS3新特性](chapter1/css3xin-te-xing.md)
   * [选择器优先级](chapter1/xuan-ze-qi-you-xian-ji.md)
-  * Transition&Animation
-  * BFC
-  * 移动端布局
-  * 浮动&清除
-  * 回流&重绘
+  * [BFC](chapter1/bfc.md)
+  * [移动端布局](chapter1/yi-dong-duan-bu-ju.md)
+  * [浮动&清除](chapter1/fu-52a826-qing-chu.md)
+  * [回流&重绘](chapter1/hui-6d4126-zhong-hui.md)
 * [JavaScript](12.md)
 * Dom
 * HTTP
