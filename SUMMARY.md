@@ -7,7 +7,7 @@
   * [META viewport](a/meta-viewport.md)
   * CANVAS
   * [SVG](a/svg.md)
-  * 正则表达式
+  * [正则表达式](a/zheng-ze-biao-da-shi.md)
 * [CSS](chapter1.md)
 * [JavaScript](12.md)
 * Dom
