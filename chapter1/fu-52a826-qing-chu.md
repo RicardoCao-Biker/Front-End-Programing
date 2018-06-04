@@ -1,4 +1,4 @@
-#### 1、浮动带来的副作用：
+#### 浮动带来的副作用：
 
 1）块状元素，会钻进浮动元素的下面，被浮动元素所覆盖
 
@@ -12,7 +12,7 @@
 
 ![](https://img-blog.csdn.net/20170510174611546?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmFpZHVfMzcxMDcwMjI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-#### 2、清除浮动：
+#### 清除浮动：
 
 ![](https://img-blog.csdn.net/20170510175815652?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmFpZHVfMzcxMDcwMjI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
