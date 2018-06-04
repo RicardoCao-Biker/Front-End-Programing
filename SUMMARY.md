@@ -4,9 +4,7 @@
 * [HTML](a.md)
   * [前端语义化](a/qian-duan-yu-yi-hua.md)
   * [HTML5新特性](a/html5xin-te-xing.md)
-  * [META viewport](a/meta-viewport.md)
-  * CANVAS
-  * [SVG](a/svg.md)
+  * [Canvas&SVG](a/canvas.md)
   * [正则表达式](a/zheng-ze-biao-da-shi.md)
 * [CSS](chapter1.md)
 * [JavaScript](12.md)
