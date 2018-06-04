@@ -1,0 +1,18 @@
+* 语意化标签\(nav、aside、dialog、header、footer等\)
+
+* canvas
+
+* 拖放相关api
+
+* Audio、Video
+
+* 获取地理位置
+
+* 更好的input校验
+
+* web存储\(localStorage、sessionStorage\)
+
+* webSocket
+
+
+
