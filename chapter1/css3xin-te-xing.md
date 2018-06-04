@@ -35,7 +35,7 @@ text-shadow: 5px 5px 5px #FF0000;}
      @font-face{
      font-family: myFirstFont;
      src: url('Sansation_Light.ttf')}
-     
+
      div{
      font-family:myFirstFont}
 </style>
@@ -56,11 +56,31 @@ transform的主要2D转换方法
 
 #### 过渡\(transition\)
 
+```
+transition: property duration timing-function delay;
+```
+
+| 值 | 描述 |
+| :--- | :--- |
+| [transition-property](http://www.w3school.com.cn/cssref/pr_transition-property.asp) | 规定设置过渡效果的 CSS 属性的名称。 |
+| [transition-duration](http://www.w3school.com.cn/cssref/pr_transition-duration.asp) | 规定完成过渡效果需要多少秒或毫秒。 |
+| [transition-timing-function](http://www.w3school.com.cn/cssref/pr_transition-timing-function.asp) | 规定速度效果的速度曲线。 |
+| [transition-delay](http://www.w3school.com.cn/cssref/pr_transition-delay.asp) | 定义过渡效果何时开始 |
+
 #### 动画\(animation\)
 
-#### 弹性盒模型\(flex-box\)
+```
+animation: name duration timing-function delay iteration-count direction;
+```
 
-#### 媒体查询\(@media\)，监听屏幕尺寸的变化
+| 值 | 描述 |
+| :--- | :--- |
+| _animation-name_ | 规定需要绑定到选择器的 keyframe 名称。。 |
+| _animation-duration_ | 规定完成动画所花费的时间，以秒或毫秒计。 |
+| _animation-timing-function_ | 规定动画的速度曲线。 |
+| _animation-delay_ | 规定在动画开始之前的延迟。 |
+| _animation-iteration-count_ | 规定动画应该播放的次数。 |
+| _animation-direction_ | 规定是否应该轮流反向播放动画。 |
 
 
 

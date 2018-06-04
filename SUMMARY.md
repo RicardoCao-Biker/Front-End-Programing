@@ -13,7 +13,7 @@
   * [Grid](chapter1/grid.md)
   * [布局](chapter1/bu-ju.md)
   * [CSS3新特性](chapter1/css3xin-te-xing.md)
-  * 选择器优先级
+  * [选择器优先级](chapter1/xuan-ze-qi-you-xian-ji.md)
   * Transition&Animation
   * BFC
   * 移动端布局
