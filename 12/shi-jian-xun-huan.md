@@ -20,7 +20,7 @@ JavaScript从诞生起就是单线程。原因大概是不想让浏览器变得�
 
 #### JS的异步编程方法
 
-* callback回调函数
+* **callback回调函数**
 
 ```
 function fn1 () {
@@ -51,8 +51,8 @@ fn2(fn3)
 //可以通过callback使fn3在fn2后执行,达到F1 > F2 > F3的目的
 ```
 
-* 事件发布/订阅
-* Promise
+* **事件发布/订阅**
+* **Promise**
 
 ```
 function fn1 () {
@@ -80,7 +80,7 @@ fn2().then(() => { fn3() })
 // output : Function 1 > Function 2 > Function 3
 ```
 
-* async&await
+* **async&await**
 
 ```
 function fn1 () {
