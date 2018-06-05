@@ -25,6 +25,11 @@
   * [操作字符串](12/cao-zuo-zi-fu-chuan.md)
   * [遍历](12/bian-li-dui-xiang-shu-xing.md)
   * [事件循环&异步](12/shi-jian-xun-huan.md)
+  * [闭包](12/bi-bao.md)
+  * [原型](12/yuan-xing.md)
+  * [继承](12/ji-cheng.md)
+  * [this](12/this.md)
+  * 浅拷贝&深拷贝
 * Dom
 * HTTP
 * Vue
