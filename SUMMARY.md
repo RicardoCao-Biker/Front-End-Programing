@@ -29,7 +29,8 @@
   * [原型](12/yuan-xing.md)
   * [继承](12/ji-cheng.md)
   * [this](12/this.md)
-  * 浅拷贝&深拷贝
+  * [浅拷贝&深拷贝](12/qian-kao-8d1d26-shen-kao-bei.md)
+  * [ES6新特性](12/es6xin-te-xing.md)
 * Dom
 * HTTP
 * Vue
