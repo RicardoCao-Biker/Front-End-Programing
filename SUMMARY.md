@@ -24,6 +24,7 @@
   * [操作数组](12/cao-zuo-shu-zu.md)
   * [操作字符串](12/cao-zuo-zi-fu-chuan.md)
   * [遍历](12/bian-li-dui-xiang-shu-xing.md)
+  * [事件循环&异步](12/shi-jian-xun-huan.md)
 * Dom
 * HTTP
 * Vue
