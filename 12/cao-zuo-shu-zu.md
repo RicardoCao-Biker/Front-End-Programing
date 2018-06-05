@@ -67,6 +67,54 @@ var a = ['a','b','c','d','e'];
 a.concat([88,99]);//["a", "b", "c", "d", "e", 88, 99]
 ```
 
+**filter 过滤**
+
+```
+var arr = [
+    {"name":"apple", "count": 2},
+    {"name":"orange", "count": 5},
+    {"name":"pear", "count": 3},
+    {"name":"orange", "count": 16},
+];
+var newArr = arr.filter(function(item){
+    return item.name === "orange";
+});
+ 
+console.log("Filter results:",newArr);
+```
+
+**reduce\(\) **可以实现一个累加器的功能，将数组的每个值（从左到右）将其降低到一个值。
+
+```
+//统计一个数组中有多少个不重复的单词
+var arr = ["apple","orange","apple","orange","pear","orange"];
+function getWordCnt(){
+    return arr.reduce(function(prev,next){
+        prev[next] = (prev[next] + 1) || 1;
+        return prev;
+    },{});
+}
+console.log(getWordCnt());
+//reduce(callback, initialValue)会传入两个变量。回调函数(callback)和初始值(initialValue)
+```
+
+**find\(\)**方法返回数组中满足提供的测试函数的第一个元素的值。否则返回[`undefined`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)。
+
+```
+var inventory = [
+  {name: 'apples', quantity: 2},
+  {name: 'bananas', quantity: 0},
+  {name: 'cherries', quantity: 5}
+];
+function findCherries(fruit) { 
+  return fruit.name === 'cherries';
+}
+console.log(inventory.find(findCherries)); // { name: 'cherries', quantity: 5 }
+```
+
+  
+
+
 #### 数组的遍历
 
 ![](https://pic4.zhimg.com/80/08235a5dafaaba6f9418704cba12fedd_hd.jpg)
