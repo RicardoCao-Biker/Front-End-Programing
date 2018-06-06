@@ -4,15 +4,7 @@
 
     //每当 store.state.count 变化的时候, 都会重新求取计算属性，并且触发更新相关联的 DOM。
     const Counter = {
-      template: `
-    <
-    div
-    >
-    {{ count }}
-    <
-    /div
-    >
-    `,
+      template: `<div>{{ count }}</div>`,
       computed: {
         count () {
           return store.state.count
@@ -35,12 +27,8 @@ const store = new Vuex.Store({
     ]
   },
   getters: {
-    doneTodos: state =
->
- {
-      return state.todos.filter(todo =
->
- todo.done)
+    doneTodos: state => {
+      return state.todos.filter(todo => todo.done)
     }
   }
 })
