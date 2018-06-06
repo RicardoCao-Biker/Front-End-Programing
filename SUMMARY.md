@@ -29,12 +29,38 @@
   * [原型](12/yuan-xing.md)
   * [继承](12/ji-cheng.md)
   * [this](12/this.md)
-  * [浅拷贝&深拷贝](12/qian-kao-8d1d26-shen-kao-bei.md)
-  * [事件](12/shi-jian-mo-xing.md)
-  * [ES6新特性](12/es6xin-te-xing.md)
+  * [Promise](12/promise.md)
 * Dom
+  * 增删改查
+  * [加载事件](12/jia-zai-shi-jian.md)
+  * [事件模型](12/shi-jian-mo-xing.md)
 * HTTP
+  * 状态码
+  * 缓存
+  * cookie&session
+  * GET&POST
+  * 跨域
+  * 页面性能
+  * 从URL到页面过程
 * Vue
-* 算法
-* 安全
+  * 生命周期
+  * 组件通信
+  * computed&method&watch
+  * [v-if&v-show](v-ifandv-show.md)
+  * 事件修饰符
+  * 动态路由
+  * 路由传参
+  * 嵌套路由
+  * 导航钩子
+  * vuex
+  * SSR
+  * 双向绑定原理
+* [算法](suan-fa.md)
+  * 快排
+  * [冒泡排序](suan-fa/mao-pao.md)
+  * 数组去重
+  * 二分查找
+* [安全](an-quan.md)
+  * XSS
+  * CSRF
 
