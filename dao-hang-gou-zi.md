@@ -1,8 +1,7 @@
 **全局路由钩子：**
 
 ```
-router.beforeEach((to, from, next) =
->
+router.beforeEach((to, from, next) =>
  {
     //会在任意路由跳转前执行，next一定要记着执行，不然路由不能跳转了
   console.log('beforeEach')
@@ -11,8 +10,7 @@ router.beforeEach((to, from, next) =
   next()
 })
 //
-router.afterEach((to, from) =
->
+router.afterEach((to, from) =>
  {
     //会在任意路由跳转后执行
   console.log('afterEach')
@@ -26,11 +24,10 @@ router.afterEach((to, from) =
     {
       path: '/foo',
       component: Foo,
-      beforeEnter: (to, from, next) =
->
- {
-        // ...
-      }
+      beforeEnter: (to, from, next) =>
+       {
+              // ...
+        }
     }
   ]
 ```
@@ -53,6 +50,5 @@ router.afterEach((to, from) =
         // 可以访问组件实例 `this`
       }
 
-  
 
 
