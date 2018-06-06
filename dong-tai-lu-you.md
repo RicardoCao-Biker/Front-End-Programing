@@ -1,0 +1,29 @@
+一个“路径参数”使用冒号`:`标记。当匹配到一个路由时，参数值会被设置到`this.$route.params`，可以在每个组件内使用
+
+    //HTML
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+    <div id="app">
+      <p>
+        <router-link to="/user/foo">/user/foo</router-link>
+        <router-link to="/user/bar">/user/bar</router-link>
+      </p>
+      <router-view></router-view>
+    </div>
+
+    //JS
+    const User = {
+      template: `<div>User {{ $route.params.id }}</div>`
+    }
+
+    const router = new VueRouter({
+      routes: [
+        { path: '/user/:id', component: User }
+      ]
+    })
+
+    const app = new Vue({ router }).$mount('#app')
+
+
+
